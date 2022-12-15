@@ -13,6 +13,7 @@ echo "--- Creating files and folders ---"
 
 mkdir -p build/debug include src lib images
 touch ./src/main.cpp
+mkdir images
 
 echo " - Linking SDL headers and libraries ---"
 echo "Linking sdl2/include"
